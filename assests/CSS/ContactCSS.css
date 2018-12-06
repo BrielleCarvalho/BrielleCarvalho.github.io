@@ -1,5 +1,7 @@
-/* CSS for index.html page */
-body{
+/* CSS for Contact.html page */
+html, body{
+    height: 100%;
+    margin: 0;
     background-image: url(../../assests/images/folk-pattern-black.png);
 }
 .profilepic{
@@ -70,7 +72,6 @@ h2{
     width: 960px;
     background-color: white;
     margin: 25px auto 10px auto;
-    border-color: #dddddd;
 }
 form{
     line-height: 2em;
@@ -101,11 +102,9 @@ input[type=text]{
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
   }
-
-.footer,
-.push{
+.footer {
     height: 50px;
-    margin: 0px;
+    margin-top: 50px;
     padding: 0px;
     border-top: solid;
     border-top-color: #4aaaa5;
