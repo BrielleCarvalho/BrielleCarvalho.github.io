@@ -18,7 +18,7 @@ header{
     height: 125px;
     margin: 0px;
     padding: 0px;
-    text-align: center;
+    
 }
 h1{
     background: #6699ff;
@@ -31,10 +31,9 @@ h1{
     left: 125px;
     bottom: 0px;
     margin: 0px;
-
+    text-align: center;
 }
-.menu{
-    
+.menu{   
     position: absolute;
     bottom: 50px;
     right: 125px;
