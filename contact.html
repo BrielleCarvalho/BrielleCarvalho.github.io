@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
-        
-        <link rel="stylesheet" type="text/css" href="../BrielleCarvalho.github.io/assests/CSS/ContactCSS.css">
+<head>
+    <meta charset="UTF-8">
 
-        <title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- My CSS Stylesheet -->
+    <link rel="stylesheet" href="assests/CSS/stylecontact.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Parisienne|Raleway" rel="stylesheet">
+
+    <title>
         Brielle's Portfolio
-        </title>
-        
-    </head>
+    </title>
 
-    <body>
-        <header> 
-            <h1>Brielle Carvalho</h1> 
-       
-            <div class="menu">
-                    <a href="../BrielleCarvalho.github.io/index.html">About | </a>
-                    <a href="../BrielleCarvalho.github.io/portfolio.html">Portfolio | </a>   
-                    <a href="../BrielleCarvalho.github.io/contact.html">Contact</a>
-            
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <img class="profilepic" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/19030292_10155388729896060_687347714814936855_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=3942d562f099fc1cba1a72f37adaad6e&oe=5C70DB5D">
+                <h1 class="display-4">Brielle Carvalho</h1>
+                <p class="lead">Front End Web Developer</p>
             </div>
+        </div>
 
-        </header>
+        <div class="container">
+            <div class="row menu">
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <p class="menu-about"><a href="../BrielleCarvalho.github.io/index.html">About</a></p>
+                </div>
+                <div class="col-3">
+                    <p class="menu-portfolio"><a href="../BrielleCarvalho.github.io/portfolio.html">Portfolio</a></p>
+                </div>
+                <div class="col-3">
+                    <p class="menu-contact"><a href="../BrielleCarvalho.github.io/contact.html">Contact</a></p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
 
-        <section class="homepage">
-            <br>
-            <h2><br><br>Contact<br><br></h2>
-           
-            <br>
+    </header>
 
-            
-            <form action="/action_page.php" method="get">
-                Name <br><input type="text" name="Name"><br>
-                Email <br><input type="text" name="Email"><br>
-                Message <br><textarea name="Message" rows="10"></textarea>
-                <br>
-                <input class="submit" type="submit" value="Submit">
-              </form>
-           
+    <section class="homepage">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ex: John Smith">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        </div>
 
-            
-            
+        <input class="submit" type="submit" value="Submit">
 
-           
-        </section>
+    </section>
 
-        <div class="wrapper"></div>
-    
-        <footer class="footer">Copyright © </footer>
+    <footer class="footer"></footer>
 
+</body>
 
-
-        </body>
-    </body>
 </html>

@@ -1,88 +1,100 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" type="text/css" href="../BrielleCarvalho.github.io/assests/CSS/PortfolioCSS.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- My CSS Stylesheet -->
+    <link rel="stylesheet" href="assests/CSS/styleportfolio.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Parisienne|Raleway" rel="stylesheet">
 
-        <title>
+    <title>
         Brielle's Portfolio
-        </title>
-        
-    </head>
+    </title>
 
-    <body>
-        <header> 
-            <h1>Brielle Carvalho</h1> 
-       
-            <div class="menu">
-                
-                    <a href="../BrielleCarvalho.github.io/index.html">About | </a>
-                    <a href="../BrielleCarvalho.github.io/portfolio.html">Portfolio | </a>   
-                    <a href="../BrielleCarvalho.github.io/contact.html">Contact</a>
-            
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img class="profilepic" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/19030292_10155388729896060_687347714814936855_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=3942d562f099fc1cba1a72f37adaad6e&oe=5C70DB5D">
+            <h1 class="display-4">Brielle Carvalho</h1>
+            <p class="lead">Front End Web Developer</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row menu">
+            <div class="col-2"></div>
+            <div class="col-3">
+                <p class="menu-about"><a href="../BrielleCarvalho.github.io/index.html">About</a></p>
             </div>
+            <div class="col-3">
+                <p class="menu-portfolio"><a href="../BrielleCarvalho.github.io/portfolio.html">Portfolio</a></p>
+            </div>
+            <div class="col-3">
+                <p class="menu-contact"><a href="../BrielleCarvalho.github.io/contact.html">Contact</a></p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
 
-        </header>
-
-        <section class="homepage">
-            <br>
-            <h2><br><br>Portfolio<br><br></h2>
-
+    <section class="homepage">
         <section class="left">
             <div class="container">
-                <img src="../BrielleCarvalho.github.io/assests/images/Hangman.jpeg" alt="hangman" style="width:25%%;">
-                <div> 
-                    <a class="projects hover-outline" href="https://briellecarvalho.github.io/WordGuessGame/">Hangman</a>
+                <img class="project-pic" src="../BrielleCarvalho.github.io/assests/images/Hangman.jpeg" alt="hangman">
+                <div class="project-title">
+                    <a class="projects" href="https://briellecarvalho.github.io/WordGuessGame/">Hangman</a>
                 </div>
             </div>
         </section>
-              
-        <section class="left">
-            <div class="container">
-                <img src="../BrielleCarvalho.github.io/assests/images/RBG.jpeg" alt="RPG" style="width:25%%;">
-                <div> 
-                   <a class="projects hover-outline" href="https://briellecarvalho.github.io/unit-4-game/">Crystal Collector</a>
-                </div>
-            </div>
-        </section>    
-            
-        <section class="left">
-            <div class="container">
-                <img src="../BrielleCarvalho.github.io/assests/images/Trivia.jpeg" alt="trivia" style="width:25%%;">
-                <div> 
-                    <a class="projects hover-outline" href="https://briellecarvalho.github.io/TriviaGame/">Trivia Game</a>
-                </div>
-            </div>
-        </section>    
-            
-        <section class="left">
-            <div class="container">
-                <img src="../BrielleCarvalho.github.io/assests/images/RIW.jpeg" alt="RIW" style="width:25%%;">
-                <div> 
-                    <a class="projects hover-outline" href="https://alithom123.github.io/know-them-jams/">Music Website Group Project</a>
-                </div>
-            </div>   
-        </section>    
 
         <section class="left">
             <div class="container">
-                <img src="../BrielleCarvalho.github.io/assests/images/RPS.jpeg" alt="RPS" style="width:25%%;">
-                <div> 
-                    <a class="projects hover-outline" href="https://briellecarvalho.github.io/TrainTimes/">Train Scheduler</a>
+                <img class="project-pic" src="../BrielleCarvalho.github.io/assests/images/RBG.jpeg" alt="RPG">
+                <div class="project-title">
+                    <a class="projects" href="https://briellecarvalho.github.io/unit-4-game/">Crystal
+                        Collector</a>
                 </div>
             </div>
-        </section>    
-           
         </section>
 
-        <div class="wrapper"></div>
-           
-        <footer class="footer">Copyright © </footer>
+        <section class="left">
+            <div class="container">
+                <img class="project-pic" src="../BrielleCarvalho.github.io/assests/images/Trivia.jpeg" alt="trivia">
+                <div class="project-title">
+                    <a class="projects" href="https://briellecarvalho.github.io/TriviaGame/">Trivia Game</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="left">
+            <div class="container">
+                <img class="project-pic" src="../BrielleCarvalho.github.io/assests/images/RIW.jpeg" alt="RIW">
+                <div class="project-title">
+                    <a class="projects" href="https://alithom123.github.io/know-them-jams/">Group Project</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="left">
+            <div class="container">
+                <img class="project-pic" src="../BrielleCarvalho.github.io/assests/images/RPS.jpeg" alt="RPS">
+                <div class="project-title">
+                    <a class="projects" href="https://briellecarvalho.github.io/TrainTimes/">Train
+                        Scheduler</a>
+                </div>
+            </div>
+        </section>
 
-        </body>
-    </body>
+    </section>
+
+    <footer class="footer"></footer>
+
+</body>
+
 </html>
