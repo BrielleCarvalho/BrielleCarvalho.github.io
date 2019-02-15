@@ -1,67 +1,56 @@
 html{
     font-family: 'Raleway', sans-serif;
 }
+body{
+    background:#29293d;
+}
+.navbar-right{
+    float: right;
+}
+.logo{
+    height:50%;
+    width:50%;
+    padding: 0% 0% 0% 5%;
+
+}
 .jumbotron{
     text-align: center;
-    background-color: white;
+    background-color: #FFFFFF;
+    margin: 5% 0%;
+    height: 550px;
+    width: 101%
 }
-.profilepic{
+/* .profilepic{
     border-radius: 150px;
     width: 25%;
     height: 25%
-}
-.display-4{
+} */
+/* .display-4{
     font-family: 'Italianno', cursive;
     font-size: 100px;
-    color: #f78a4f;
-}
-.lead{
+    color: #e2997f;
+} */
+/* .lead{
     font-size: 30px;
-}
-.menu{
-    font-family: 'Italianno', cursive;
-    font-size: 35px;
-    margin: 5% 10%;
-}
-a{
-    color: #000e5e;
-}
-a:hover{
-    color:#000e5e;
-    text-decoration: none;
-    font-family:'Raleway', sans-serif;
-    font-size: 25px;
-}
+} */
 .homepage{
-    font-family:'Raleway', sans-serif;
+   
     font-size: 25px;
     margin: 0% 10%;
-}
-.project-pic{
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
-    padding: 5%;
-}
-.left{
-    float: left;
-    padding: 5%;
-    align-content: center;
-}
-.project-title{
-    font-size: 20px;
-    text-align: center;
-    padding: 5%;
+    background: white;
+    margin: 5% 10% 5% 10%;
+    padding: 5% 5% 5% 5%;
 }
 .form-group{
     width: 100%;
     border-radius: 5%;
 }
 .submit{
-    border-radius: 8px;
-    background: #000e5e;
+    border-radius: 15px;
+    background: #29293d;
     color: white;
     float: right;
+    margin: 5px;
 }
 footer{
     margin: 10% 0%;
