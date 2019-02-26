@@ -1,11 +1,12 @@
 html{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 body{
     background-color: #29293d;
 }
 .navbar-right{
-    float: right;
+    position: realtive;
+    top: 100px;
 }
 .logo{
     height:50%;
@@ -14,18 +15,18 @@ body{
 }
 .jumbotron{
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #f7f7f7;
     margin: 5% 0%;
-    height: 550px;
+    height: 25%;
     width: 101%
 }
-.profilepic{
+/* .profilepic{
     border-radius: 150px;
     width: 25%;
     height: 25%;
     padding: 0%;
     margin: 0%;
-}
+} */
 /* .display-4{
     font-family: 'Italianno', cursive;
     font-size: 100px;
@@ -41,17 +42,20 @@ body{
 
 .homepage{
     font-family:'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0% 10%;
     background: white;
     margin: 10%;
     padding: 3%;
+    height: 75%;
+    width: 80%;
 }
 .project-pic{
     border-radius: 100%;
     width: 200px;
     height: 200px;
     padding: 5%;
+    z-index: -99;
 }
 .left{
     float: left;
@@ -59,7 +63,7 @@ body{
     align-content: center;
 }
 .project-title{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     padding: 5%;
 }
@@ -69,4 +73,11 @@ body{
 }
 footer{
     margin: 10% 0%;
+}
+a.projects{
+    font-size: 15px;
+    text-align: center;
+    padding: 5%;
+    /* color: white; */
+    
 }
