@@ -41,12 +41,13 @@ body{
     border: solid;
     border-color: #ecb7a0;
     border-radius: 10px;
-    border-width: 50px;
+    border-width: 30px;
     background: #f7f7f7;
     height: 1000px;
-    width:75%;
+    width:80%;
     text-align: center;
     padding: 5%;
+    margin: 0% 10%;
 }
 .project-pic{
     border-radius: 100%;

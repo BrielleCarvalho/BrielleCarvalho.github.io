@@ -37,11 +37,10 @@ body{
     border: solid;
     border-color: #ecb7a0;
     border-radius: 10px;
-    border-width: 50px;
+    border-width: 30px;
     font-size: 25px;
     margin: 0% 10%;
     background: #f7f7f7;
-    margin: 5% 10%;
     padding: 5%;
 }
 .form-group{
