@@ -20,23 +20,6 @@ body{
     height: 25%;
     width: 101%
 }
-/* .profilepic{
-    border-radius: 150px;
-    width: 25%;
-    height: 25%
-} */
-/* .display-4{
-    font-family: 'Italianno', cursive;
-    font-size: 100px;
-    color: #e2997f;
-} */
-/* .lead{
-    font-size: 30px;
-} */
-/* .border-color{
-    background-color: #ecb7a0;
-    
-} */
 .homepage{
     border: solid;
     border-color: #ecb7a0;
@@ -50,10 +33,9 @@ body{
     margin: 0% 10%;
 }
 .project-pic{
-    border-radius: 100%;
+    border-radius: 40px;
     width: 175px;
     height: 175px;
-    z-index: -99;
 }
 .project-title{
     font-family:'Raleway', sans-serif;
