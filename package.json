@@ -1,0 +1,19 @@
+{
+  "name": "briellecarvalho.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio of work completed thus far in Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrielleCarvalho/BrielleCarvalho.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrielleCarvalho/BrielleCarvalho.github.io/issues"
+  },
+  "homepage": "https://github.com/BrielleCarvalho/BrielleCarvalho.github.io#readme"
+}
