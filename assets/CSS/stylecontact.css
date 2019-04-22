@@ -20,19 +20,6 @@ body{
     height: 25%;
     width: 101%
 }
-/* .profilepic{
-    border-radius: 150px;
-    width: 25%;
-    height: 25%
-} */
-/* .display-4{
-    font-family: 'Italianno', cursive;
-    font-size: 100px;
-    color: #e2997f;
-} */
-/* .lead{
-    font-size: 30px;
-} */
 .homepage{
     border: solid;
     border-color: #ecb7a0;
@@ -56,4 +43,19 @@ body{
 }
 footer{
     margin: 10% 0%;
+}
+.contact-header{
+    border-bottom: solid;
+    border-bottom-color: #ecb7a0;
+}
+a:link{
+    color: #29293d;
+}
+a:visited{
+    color: #ecb7a0;
+    font-style: italic;
+}
+a:hover{
+    color: #ecb7a0;
+    text-decoration: underline;
 }

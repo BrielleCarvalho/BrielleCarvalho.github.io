@@ -26,19 +26,6 @@ body{
     float: left;
     margin: 10px;
 }
-/* .display-4{
-    font-family: 'Italianno', cursive;
-    font-size: 100px;
-    color: #e2997f;
-    padding: 0%;
-    margin: 0%;
-} */
-/* .lead{
-    font-size: 30px;
-    padding: 0px;
-    margin: 0px;
-} */
-
 .homepage{
     border: solid;
     border-color: #ecb7a0;
@@ -52,23 +39,11 @@ body{
     height: 1500px;
     width: 80%;
 }
-/* .project-pic{
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
-    padding: 5%;
-    z-index: -99;
-} */
 .left{
     float: left;
     padding: 5%;
     align-content: center;
 }
-/* .project-title{
-    font-size: 15px;
-    text-align: center;
-    padding: 5%;
-} */
 .form-group{
     width: 100%;
     border-radius: 5%;
@@ -80,8 +55,6 @@ a.projects{
     font-size: 15px;
     text-align: center;
     padding: 5%;
-    /* color: white; */
-    
 }
 .resume{
     width: 100%;
